@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("https://www.protocol.com/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMzQzMDc4OS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY0MDg5OTI2OH0.WwhzNzXTpAmh7brnHRq2Y-e_oJp13IHkz9aUk-Psvbc/image.jpg?width=1245&coordinates=0%2C0%2C0%2C275&height=700");
+    opacity:13.0;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 50px;
+    padding: 100px;
+    color: #be3f5f;
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+    resize: none;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(14, 13, 13);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background: #eba834;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
+
+#play-btn {
+    background: #6ebd28;
+}
+
+#play-btn:hover {
+    background: #2980b9;
+    transition: background 0.3s ease;
+}
+
+#pause-btn {
+    background: #e74c3c;
+}
+
+#pause-btn:hover {
+    background: #c0392b;
+    transition: background 0.3s ease;
+}
