@@ -1,7 +1,7 @@
 
 # Text to Speech Web Application
 
-## Deploy Link: https://fabulous-beijinho-07ff57.netlify.app/
+## Deploy Link: https://magenta-kringle-2ec71d.netlify.app/
 
 ## Table of Contents
 
